@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lag Example</title>
+</head>
+<body>
+    <h1>This page will lag your device</h1>
+    <script>
+        // This script will cause the device to lag by creating an infinite loop
+        function causeLag() {
+            while (true) {
+                // This loop does nothing but consumes CPU resources
+            }
+        }
+
+        // Start the lag after a short delay
+        setTimeout(causeLag, 3000);
+    </script>
+</body>
+</html>
